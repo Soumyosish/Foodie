@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer-content">
             <div className="footer-content-left">
                 <img src={assets.foodie_icon} alt="" />
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime, sapiente. Libero esse aperiam voluptatum placeat culpa iure vero? Odio itaque accusantium amet animi possimus adipisci id saepe corporis inventore consequatur.</p>
+                <p>Discover a world of flavors with dishes made fresh, fast, and flawlessly. From comfort food to gourmet delights, we serve joy on every plate.</p>
                 <div className="footer-social-icons">
                     <span className="footer-social-svg">
                         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="16" fill="none"/><path d="M21.5 16H18V26H14V16H12V13H14V11.5C14 9.57 15.07 8 17.5 8H21V11H19C18.45 11 18 11.45 18 12V13H21.5V16Z" fill="currentColor"/></svg>
