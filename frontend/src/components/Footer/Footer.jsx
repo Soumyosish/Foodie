@@ -8,7 +8,13 @@ const Footer = () => {
         <div className="footer-content">
             <div className="footer-content-left">
                 <img src={assets.foodie_icon} alt="" />
-                <p>Discover a world of flavors with dishes made fresh, fast, and flawlessly. From comfort food to gourmet delights, we serve joy on every plate.</p>
+                <p>Enjoy delicious food from your favorite restaurants.
+Fast delivery, easy to use, and always satisfying.
+
+No more waiting in lines or cooking at home.
+Order fresh, tasty meals with just a few taps.
+
+</p>
                 <div className="footer-social-icons">
                     <span className="footer-social-svg">
                         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="16" cy="16" r="16" fill="none"/><path d="M21.5 16H18V26H14V16H12V13H14V11.5C14 9.57 15.07 8 17.5 8H21V11H19C18.45 11 18 11.45 18 12V13H21.5V16Z" fill="currentColor"/></svg>
@@ -39,7 +45,9 @@ const Footer = () => {
             </div>
         </div>
         <hr />
-        <p className="footer-copyright">Copyright 2024 &nbsp;  &copy; &nbsp; foodie.com - All Right Reserved</p>
+        <p className="footer-copyright">
+          Copyright {new Date().getFullYear()} &nbsp; &copy; &nbsp; foodie.com - All Right Reserved
+        </p>
     </div>
   )
 }
